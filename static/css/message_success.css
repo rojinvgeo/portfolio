@@ -1,0 +1,25 @@
+#success-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #dff0d8; /* Light green for success */
+    color: #3c763d; /* Green text */
+    display: none;
+    font-size: 0.9rem; /* Smaller font size for compactness */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+#success-message button {
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font-size: 1.2rem; /* Larger font size for close button */
+    font-weight: bold; /* Bold close button */
+    cursor: pointer;
+    float: right; /* Move close button to the right */
+}
